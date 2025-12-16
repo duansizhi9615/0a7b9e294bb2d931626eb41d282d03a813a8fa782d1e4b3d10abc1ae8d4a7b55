@@ -1,8 +1,9 @@
 name: duansizhi9615
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '7 5/6 * * *'
 
 jobs:
   build:
@@ -12,17 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: duansizhi9615
         env:
-          pdzfc33: ${{ secrets.pdzfc33 }}
+          ru25: ${{ secrets.ru25 }}
         run: |
-          echo $pdzfc33 | jq -r .mk8024 | /bin/bash
-          echo $p1665 | jq -r .w509 | /bin/bash
-          echo $ld71 | jq -r .xysdr012 | /bin/bash
-          echo $f774 | jq -r .o16850 | /bin/bash
-          echo $dkhlo5893 | jq -r .dbr665 | /bin/bash
-          echo $zlxd6198 | jq -r .ymj18688 | /bin/bash
-          echo $bf3 | jq -r .j27610 | /bin/bash
-          echo $ih38 | jq -r .g35771 | /bin/bash
-          echo $ctmq35 | jq -r .tbuof7 | /bin/bash
-          echo $g118 | jq -r .ria429 | /bin/bash
-          echo $fxj50 | jq -r .srh4761 | /bin/bash
+          echo $ru25 | jq -r .f9057 | /bin/bash
+          echo $ls822 | jq -r .u532 | /bin/bash
+          echo $f769 | jq -r .hbrdv24503 | /bin/bash
+          echo $ccno3689 | jq -r .k79 | /bin/bash
+          echo $lbyuo2 | jq -r .nwqn0 | /bin/bash
+          echo $n1956 | jq -r .z6555 | /bin/bash
 
